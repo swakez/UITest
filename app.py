@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('landingpage.html')
+    return render_template('landing_new.html')
 
 @app.route('/home')
-def index():
+def index1():
     return render_template('index.html')
 
 @app.route('/create_project')
